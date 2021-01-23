@@ -4,7 +4,7 @@ export default function NavBar() {
 	const [isExpanded, toggleExpansion] = useState(false);
 
 	return (
-		<header className={`fixed w-full z-30 md:bg-whitetransition duration-300 ease-in-out`}>
+		<header className={` w-full z-30 md:bg-whitetransition duration-300 ease-in-out`}>
       <div className="max-w-full mx-auto px-5 sm:px-6">
         <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto p-4 md:p-4">
 
@@ -31,40 +31,40 @@ export default function NavBar() {
           </button>
 
           {/* Site navigation */}
-          <nav className={`${ isExpanded ? `block` : `hidden`} md:block md:flex md:items-center w-full md:w-auto`}>
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+          <nav className={`${isExpanded ? `block` : `hidden`} md:block md:flex md:items-center w-full md:w-auto qs-regular`}>
+            <ul className="flex flex-grow justify-end flex-wrap items-center font-bold">
               <li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
                   <span>DASHBOARD</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
-                  <span>CUSTOMER</span>
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
+                  <span>CUSTOMERS</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
                   <span>ASSOCIATES</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm primary-color-txt text-sm ml-8">
                   <span>REQUEST</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
                   <span>SCHEDULE</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
                   <span>PAYMENT</span>
                 </a>
               </li>
 							<li>
-                <a href="/" className="btn-sm text-gray-200 ml-3">
+                <a href="/" className="btn-sm text-grey text-sm ml-8">
                   <span>SETTINGS</span>
                 </a>
               </li>

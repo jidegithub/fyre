@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities"; */
+
+/* :root{
+
+} */
 
 body {
   margin: 0;
@@ -12,4 +13,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.qs-medium{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+.qs-regular{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+.bluish-bg{
+  background-color: #F2F2F9;
+}
+.primary-color-txt{
+  color: #2E2E99;
+}
+.primary-color-bg{
+  background-color: #2E2E99;
+}
+.text-grey{
+  color: #A1A1AF;
+}
+.option-blue{
+  background-color: #01037A;
+}
+.option-position{
+  bottom: 30px;
+}
+.tooltip-position{
+  right: 18px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import GenerateInvoice from './components/GenerateInvoice';
 import Header from './components/Header';
 import RequestInfo from './components/RequestInfo';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header/>
       <main className="bluish-bg flex-grow">
-        <RequestInfo/>
+        {/* <RequestInfo/> */}
+        <GenerateInvoice/>
       </main>
     </div>
   );

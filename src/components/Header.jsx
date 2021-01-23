@@ -48,7 +48,7 @@ export default function NavBar() {
                   <span>ASSOCIATES</span>
                 </a>
               </li>
-							<li>
+							<li className="underline">
                 <a href="/" className="btn-sm primary-color-txt text-sm ml-8">
                   <span>REQUEST</span>
                 </a>

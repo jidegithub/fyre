@@ -43,3 +43,9 @@ body {
 .tooltip-position{
   right: 18px;
 }
+
+@media (min-width: 768px) {
+  .w-44{
+    width: 44%;
+  }
+}

@@ -128,12 +128,12 @@ export default function InvoiceForm() {
         <div class="mt-4 flex justify-between md:items-center">
           <div className="w-1/2 pr-3">
             <button className=" w-full shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                Sign Up
+                CANCEL
             </button>
           </div>
           <div className="w-1/2 pl-3">
             <button className="w-full shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-              Sign Up
+              CREATE INVOICE
             </button>
           </div>
         </div>

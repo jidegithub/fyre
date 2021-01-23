@@ -1,7 +1,8 @@
 import React from 'react';
-import GenerateInvoice from './components/GenerateInvoice';
+// import GenerateInvoice from './components/GenerateInvoice';
 import Header from './components/Header';
-import RequestInfo from './components/RequestInfo';
+import InvoicePreview from './components/InvoicePreview';
+// import RequestInfo from './components/RequestInfo';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Header/>
       <main className="bluish-bg flex-grow">
         {/* <RequestInfo/> */}
-        <GenerateInvoice/>
+        {/* <GenerateInvoice/> */}
+        <InvoicePreview/>
       </main>
     </div>
   );

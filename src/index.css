@@ -34,6 +34,9 @@ body {
 .text-grey{
   color: #A1A1AF;
 }
+.text-p{
+  color:#AEAEAE;
+}
 .option-blue{
   background-color: #01037A;
 }
@@ -46,6 +49,6 @@ body {
 
 @media (min-width: 768px) {
   .w-44{
-    width: 44%;
+    width: 45%;
   }
 }

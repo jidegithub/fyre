@@ -1,6 +1,6 @@
 import React from 'react';
 import InvoiceForm from './InvoiceForm';
-import PageTitle from './PageTitle';
+import PageTitle from '../PageTitle';
 
 export default function GenerateInvoice() {
   return (

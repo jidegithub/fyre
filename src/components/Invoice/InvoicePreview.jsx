@@ -1,5 +1,6 @@
 import React from 'react'
-import PageTitle from './PageTitle'
+import PageTitle from '../PageTitle';
+import {LogoIcon} from '../../assets/svg';
 
 export default function InvoicePreview() {
   return (
@@ -11,7 +12,7 @@ export default function InvoicePreview() {
         <div className="max-w-xl bg-white px-6 py-4 rounded qs-medium">
           <div className="flex items-center justify-between mb-8">
             <div className="text-right">
-              <img src="https://www.stenvdb.be/assets/img/email-signature.png" alt="logo"/>
+              <LogoIcon/>
             </div>
             <div>
             <label className="block uppercase tracking-wide text-grey text-sm font-bold mb-1">INVOICE</label>

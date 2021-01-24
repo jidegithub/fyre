@@ -1,8 +1,8 @@
 import React from 'react';
 // import GenerateInvoice from './components/GenerateInvoice';
 import Header from './components/Header/Header';
-import InvoicePreview from './components/InvoicePreview';
-// import RequestInfo from './components/RequestInfo';
+import InvoicePreview from './components/Invoice/InvoicePreview';
+// import RequestInfo from './components/Request/RequestInfo';
 
 function App() {
   return (

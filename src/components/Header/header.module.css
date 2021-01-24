@@ -1,0 +1,81 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #ffffff;
+  padding: .6rem 7rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.active {
+  color: #2E2E99;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  background: #2E2E99;
+  position: absolute;
+  bottom: -1.4rem;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.link {
+  margin-right: 1rem;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.actionUser {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: #2E2E99;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5rem .8rem;
+}
+
+.actionUser > *:nth-child(2) {
+  margin-left: .3rem;
+}
+
+.actionNotify {
+  background: #2E2E99;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: .5rem .7rem;
+  margin-right: .5rem;
+}
+
+.nav {
+  -webkit-box-flex: .7;
+      -ms-flex: .7;
+          flex: .7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=header.module.css.map */

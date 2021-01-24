@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import { LogoIcon, UserIcon, CaretDownIcon, NotificationIcon } from '../../assets/svg';
+import styles from './header.module.css';
 
 export default function NavBar() {
 	const [isExpanded, toggleExpansion] = useState(false);
@@ -12,7 +14,7 @@ export default function NavBar() {
           <div className="mr-4">
             {/* Logo */}
             <a href="/" className="block" aria-label="fyre">
-              logo
+              <LogoIcon/>
             </a>
           </div>
 
@@ -71,21 +73,16 @@ export default function NavBar() {
             </ul>
           </nav>
 
-					<div className="px-4">
-						<div className="flex items-center">
-							<img className="h-8 w-8 border-2 rounded-full object-cover" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80" alt="Your avatar"/>
-							<div className="ml-3 inline-block relative w-12">
-                <select className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-                  <option>Really </option>
-                  <option>Option 2</option>
-                  <option>Option 3</option>
-                </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                  <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                </div>
-              </div>
-						</div>
-					</div>
+          <div className={styles.action}>
+            <div className={styles.actionNotify}>
+                <NotificationIcon />
+            </div>
+            <div className={styles.actionUser}>
+                <UserIcon />
+                <CaretDownIcon />
+            </div>
+          </div>
+
         </div>
       </div>
     </header>

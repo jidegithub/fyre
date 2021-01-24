@@ -1,6 +1,6 @@
 import React from 'react';
 // import GenerateInvoice from './components/GenerateInvoice';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import InvoicePreview from './components/InvoicePreview';
 // import RequestInfo from './components/RequestInfo';
 

@@ -17,9 +17,10 @@
 
 @media(max-width: 1024px) {
   .links_container{
-    display: none;
+    /* display: none; */
+    order: 1;
   }
-  .hide{
+  .menu{
     display: block;
   }
 }
@@ -29,10 +30,10 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-}
-
-/* @media (min-width: 768px) {
-  .hide{
+  .menu{
     display: none;
   }
-} */
+  .links_container{
+    display: block;
+  }
+}

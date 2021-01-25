@@ -115,7 +115,10 @@ export default function InvoiceForm() {
               <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="tot-amount">
                 Total amount
               </label>
-              <input className="appearance-none border-yellow-500 block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="tot-amount" type="text" placeholder="NGN 48,375"/>
+              <div className="select-none appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight">
+                NGN 48,375
+              </div>
+              {/* <input className="disabled appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:border-gray-500" id="tot-amount" type="text" placeholder="NGN 48,375"/> */}
             </div>
           </div>
         </form>

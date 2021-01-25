@@ -15,6 +15,15 @@
   color: #01037C;
 }
 
+@media(max-width: 1024px) {
+  .links_container{
+    display: none;
+  }
+  .hide{
+    display: block;
+  }
+}
+
 @media (min-width: 1024px) {
   .p-stab{
     padding-left: 0px;
@@ -22,13 +31,8 @@
   }
 }
 
-
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .hide{
     display: none;
   }
-}
-
-@media (min-width: 640px) {
-
-}
+} */

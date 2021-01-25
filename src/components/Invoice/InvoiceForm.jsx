@@ -6,36 +6,33 @@ export default function InvoiceForm() {
       <div className="m-0 lg:mr-4">
         <form className="w-full flex-col bg-white rounded px-6 py-4 mt-4">
           <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
-                Password
+            <div className="w-full px-3"> 
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="client-name">
+                Customer/Company name
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************"/>
-              <p className="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="client-name" type="text" placeholder="Spleet Limited"/>
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
-                First Name
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="email">
+                Email address
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
-              <p className="text-red-500 text-xs italic">Please fill out this field.</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Info@spleet.ng"/>
             </div>
             <div className="w-full md:w-1/2 px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-last-name">
-                Last Name
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="phone">
+                Phone number
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"/>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="phone" type="text" placeholder="08563255555"/>
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
-                Password
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="address">
+                Home/ Building Address
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************"/>
-              <p className="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="address" type="text" placeholder="51,Iwaya Road,Onike, Iwaya"/>
             </div>
           </div>
         </form>
@@ -45,12 +42,12 @@ export default function InvoiceForm() {
         <form className="w-full flex-col bg-white rounded px-6 py-4 mt-4">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-state">
-                State
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="issue-date">
+                Issue date
               </label>
               <div className="relative">
-                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>New Mexico</option>
+                <select className="block appearance-none border-yellow-500 w-full border text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none bg-white focus:bg-white focus:border-yellow-700" id="issue-date">
+                  <option>08-10-2020</option>
                   <option>Missouri</option>
                   <option>Texas</option>
                 </select>
@@ -60,12 +57,12 @@ export default function InvoiceForm() {
               </div>
             </div>
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-state">
-                State
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="due-date">
+                Due date
               </label>
               <div className="relative">
-                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>New Mexico</option>
+                <select className="block appearance-none border-yellow-500 w-full border text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none bg-white focus:bg-white focus:border-yellow-700" id="due-date">
+                  <option>08-10-2020</option>
                   <option>Missouri</option>
                   <option>Texas</option>
                 </select>
@@ -77,20 +74,19 @@ export default function InvoiceForm() {
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
-                First Name
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="invoice">
+                Invoice number
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
-              <p className="text-red-500 text-xs italic">Please fill out this field.</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="invoice" type="text" placeholder="000000001"/>
             </div>
 
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-state">
-                State
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="vat">
+                V.A.T %
               </label>
               <div className="relative">
-                <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                  <option>New Mexico</option>
+                <select className="block appearance-none border-yellow-500 w-full border text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none bg-white focus:bg-white focus:border-yellow-700" id="vat">
+                  <option>7.5%</option>
                   <option>Missouri</option>
                   <option>Texas</option>
                 </select>
@@ -102,38 +98,36 @@ export default function InvoiceForm() {
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
-                Password
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="description">
+                Service description
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="******************"/>
-              <p className="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="description" type="text" placeholder="5 Bedroom Duplex post-con cleaning"/>
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
-                First Name
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="serv-amount">
+                Service amount
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
-              <p className="text-red-500 text-xs italic">Please fill out this field.</p>
+              <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="serv-amount" type="text" placeholder="NGN 45,000"/>
             </div>
             <div className="w-full md:w-1/2 px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-last-name">
-                Last Name
+              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="tot-amount">
+                Total amount
               </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"/>
+              <input className="appearance-none border-yellow-500 block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="tot-amount" type="text" placeholder="NGN 48,375"/>
             </div>
           </div>
         </form>
-        <div class="mt-4 flex justify-between md:items-center">
+        <div className="mt-4 flex justify-between md:items-center qs-regular">
           <div className="w-1/2 pr-3">
-            <button className=" w-full shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                CANCEL
+            <button className=" w-full shadow primary-color-txt border border-blue-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              <span className="text-xs">CANCEL</span>
             </button>
           </div>
           <div className="w-1/2 pl-3">
-            <button className="w-full shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-              CREATE INVOICE
+            <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              <span className="text-xs">CREATE INVOICE</span>
             </button>
           </div>
         </div>

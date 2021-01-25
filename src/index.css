@@ -14,13 +14,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+input::placeholder {
+  @apply text-gray-500;
+  @apply placeholder-opacity-0;
+  font-family: 'Mukta', sans-serif;
+}
 .qs-medium{
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
 }
 .qs-regular{
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 300;
+}
+.qs-light{
+  font-family: 'Mukta', sans-serif;
+  font-weight: 200;
 }
 .bluish-bg{
   background-color: #F2F2F9;
@@ -32,7 +41,7 @@ body {
   background-color: #2E2E99;
 }
 .text-grey{
-  color: #A1A1AF;
+  color: #373737cb;
 }
 .text-p{
   color:#AEAEAE;
@@ -45,6 +54,17 @@ body {
 }
 .tooltip-position{
   right: 18px;
+}
+.request-info-title {
+  height: 29px;
+  max-width: 154px;
+  border-radius: 4px;
+  background: #2e2e99;
+  font-size: 0.95rem;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 1px 7px;
+  margin-top: 40px;
 }
 
 @media (min-width: 768px) {

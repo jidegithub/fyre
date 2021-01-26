@@ -1,36 +1,35 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 export default function InvoiceForm() {
   return (
     <section className="flex flex-col lg:flex-row">
       <div className="m-0 lg:mr-4">
         <form className="w-full flex-col bg-white rounded px-6 py-4 mt-4">
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full px-3"> 
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="client-name">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="client-name">
                 Customer/Company name
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="client-name" type="text" placeholder="Spleet Limited"/>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="email">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="email">
                 Email address
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Info@spleet.ng"/>
             </div>
             <div className="w-full md:w-1/2 px-3">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="phone">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="phone">
                 Phone number
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="phone" type="text" placeholder="08563255555"/>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="address">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="address">
                 Home/ Building Address
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="address" type="text" placeholder="51,Iwaya Road,Onike, Iwaya"/>
@@ -41,9 +40,9 @@ export default function InvoiceForm() {
 
       <div className=" m-0 lg:ml-4">
         <form className="w-full flex-col bg-white rounded px-6 py-4 mt-4">
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="issue-date">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="issue-date">
                 Issue date
               </label>
               <div className="relative">
@@ -58,7 +57,7 @@ export default function InvoiceForm() {
               </div>
             </div>
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="due-date">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="due-date">
                 Due date
               </label>
               <div className="relative">
@@ -73,16 +72,16 @@ export default function InvoiceForm() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="invoice">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="invoice">
                 Invoice number
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="invoice" type="text" placeholder="000000001"/>
             </div>
 
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="vat">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="vat">
                 V.A.T %
               </label>
               <div className="relative">
@@ -97,29 +96,26 @@ export default function InvoiceForm() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-6">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-6">
             <div className="w-full px-3">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="description">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="description">
                 Service description
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="description" type="text" placeholder="5 Bedroom Duplex post-con cleaning"/>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-2">
+          <div className="flex flex-wrap qs-bold -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="serv-amount">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="serv-amount">
                 Service amount
               </label>
               <input className="appearance-none border-yellow-500 block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="serv-amount" type="text" placeholder="NGN 45,000"/>
             </div>
             <div className="w-full md:w-1/2 px-3">
-              <label className="block tracking-wide text-grey text-xs mb-2" htmlFor="tot-amount">
+              <label className="block tracking-wide text-grey text-sm mb-2" htmlFor="tot-amount">
                 Total amount
               </label>
-              <div className="select-none appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight">
-                NGN 48,375
-              </div>
-              {/* <input className="disabled appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:border-gray-500" id="tot-amount" type="text" placeholder="NGN 48,375"/> */}
+              <input className="appearance-none border-yellow-500 block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="tot-amount" type="text" placeholder="NGN 48,375"/>
             </div>
           </div>
         </form>
@@ -130,14 +126,12 @@ export default function InvoiceForm() {
             </button>
           </div>
           <div className="w-1/2 pl-3">
-            <Link to="/invoicepreview">
-              <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                <span className="text-xs">CREATE INVOICE</span>
-              </button>
-            </Link>
+            <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              <span className="text-xs">CREATE INVOICE</span>
+            </button>
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

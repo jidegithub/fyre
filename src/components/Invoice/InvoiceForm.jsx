@@ -131,7 +131,7 @@ export default function InvoiceForm() {
           </div>
           <div className="w-1/2 pl-3">
             <Link to="/invoicepreview">
-              <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              <button className="w-full shadow send-btn hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
                 <span className="text-xs">CREATE INVOICE</span>
               </button>
             </Link>

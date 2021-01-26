@@ -70,6 +70,22 @@ input::placeholder {
   padding: 1px 7px;
   margin-top: 40px;
 }
+.preview-title{
+  color: #77778B;
+}
+.preview-header{
+  color: #524f4f;
+}
+.preview-other{
+  /* color:#414141db; */
+  color: #272626e0;
+}
+.unpaid{
+  color: #F74B28;
+}
+.send-btn{
+  background-color: #DEA000;
+}
 
 @media (min-width: 768px) {
   .w-44{

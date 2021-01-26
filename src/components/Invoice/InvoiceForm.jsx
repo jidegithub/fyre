@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function InvoiceForm() {
   return (
@@ -129,12 +130,14 @@ export default function InvoiceForm() {
             </button>
           </div>
           <div className="w-1/2 pl-3">
-            <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-              <span className="text-xs">CREATE INVOICE</span>
-            </button>
+            <Link to="/invoicepreview">
+              <button className="w-full shadow bg-yellow-500 hover:bg-yellow-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                <span className="text-xs">CREATE INVOICE</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ActionButton() {
   return (
@@ -22,11 +23,7 @@ export default function ActionButton() {
             <hr/>
           </li>
           <li className="">
-            <a
-              className="hover:bg-blue-100 py-4 pl-6 pr-8 text-xs block whitespace-no-wrap"
-              href="/"
-              >Generate invoice</a
-            >
+          <Link to="/generateinvoice" className="hover:bg-blue-100 py-4 pl-6 pr-8 text-xs block whitespace-no-wrap">Generate invoice</Link>
             <hr/>
           </li>
           <li className="">

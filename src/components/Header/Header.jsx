@@ -21,7 +21,7 @@ export default function NavBar() {
           </div>
 
           {/* Site navigation */}
-          <div className={`${ isExpanded ? `block` : `hidden`} md:block links_container text-sm qs-medium`}>
+          <div className={`${ isExpanded ? `block` : `hidden`} md:block links_container text-sm qs-medium overflow-x-scroll md:overflow-hidden`}>
             <a href="/"> DASHBOARD</a>
             <a href="/">CUSTOMERS</a>
             <a href="/">ASSOCIATES</a>
